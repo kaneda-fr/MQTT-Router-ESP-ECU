@@ -1,6 +1,6 @@
 # MQTT message router for Jeedom/ESP ECU #
 
-[ESP ECU]([http://.com](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki)https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki) publish all messages in a single topic.
+[ESP ECU](http://.com](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki)https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki) publish all messages in a single topic.
 Jeedom [JMQTT plugin](https://domotruc.github.io/jMQTT/fr_FR/) required a dedicated topic per virtual device.
 
 This router will republish the message to a topic named after the inverter serial.
