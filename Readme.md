@@ -5,7 +5,8 @@ Jeedom [JMQTT plugin](https://domotruc.github.io/jMQTT/fr_FR/) required a dedica
 
 This router will republish the message to a topic named after the inverter serial.
 
-based on ESP ECU message format v4.
+This is based on ESP ECU message format v4 (to be selected in ESP ECU web interface)
+
 ```
 {"inv_serial":"703000159999","freq":50.0,"temp":26.9,"acv":230.5,"ch0":[43.9,1.6,62.6,244.98],"ch1":[23.4,0.0,0.0,0.00],"totals":[62.6,244.98]}
 ```
