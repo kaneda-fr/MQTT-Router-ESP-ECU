@@ -11,3 +11,16 @@ based on ESP ECU message format v4.
 ```
 
 Sample JMQTT device template is provided (APS DS3 with 2 MPTT)
+
+## Installation instructions (for use with jeedom) ##
+
+The following commands will install the MQTT router and automatically start it upon jeedom restart.
+
+```
+sudo su -
+cd /home/jeedom
+git clone https://github.com/kaneda-fr/MQTT-Router-ESP-ECU.git
+ln -s MQTT-Router-ESP-ECU/mqtt-router.service /etc/systemd/system/mqtt-router.service
+systemctl enable mqtt-router 
+systemctl start mqtt-router 
+```
