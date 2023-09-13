@@ -1,0 +1,13 @@
+[Unit]
+Description=MQTT router for ESP ECU messages
+After=syslog.target network.target mosquito.target
+
+[Service]
+WorkingDirectory=/home/jeedom
+ExecStart=python3 MQTT-Router-ESP-ECU/router.py
+
+Restart=always
+RestartSec=120
+
+[Install]
+WantedBy=multi-user.target
