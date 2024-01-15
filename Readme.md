@@ -21,7 +21,7 @@ The following commands will install the MQTT router and automatically start it u
 sudo su -
 cd /home/jeedom
 git clone https://github.com/kaneda-fr/MQTT-Router-ESP-ECU.git
-ln -s MQTT-Router-ESP-ECU/mqtt-router.service /etc/systemd/system/mqtt-router.service
+ln -s MQTT-Router-ESP-ECU/MQTT-Router-ESP-ECU/mqtt-router.service /etc/systemd/system/mqtt-router.service
 systemctl enable mqtt-router 
 systemctl start mqtt-router 
 ```
